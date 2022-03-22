@@ -9,7 +9,7 @@
 header{
     background-color: var(--main-bg-color);
     font-family: 'Source Serif 4', sans-serif;
-    width: 100%;
+    width: 100vw;
 }
 nav{
     display: flex;
