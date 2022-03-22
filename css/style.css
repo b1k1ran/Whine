@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+:root{
+ --main-bg-color: #2455f4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Source Serif 4', sans-serif;
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 58px;
+    width: 90px;
+    margin: 0 0 0 14px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 19px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin: 0 15px 0 56px;
+}
+.btn{
+    padding: 5px 5px;
+
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: px auto;
+  
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-item{
+    width: 250px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    padding: 15px 0;
+    /* display: inline-flex; */
+}
+.container{
+    min-height: calc(100vh - 10vh - 10vh);
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Serif 4', sans-serif;
+}
